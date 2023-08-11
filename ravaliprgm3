@@ -1,0 +1,8 @@
+char=input("enter a character:")
+if char in "aeiouAEIOU":
+    print(char,"is vowels")
+elif char in "bcdfghjklmnpqrstvwxyzBCDEFGHIJKLMNOPQRSTUVWXYZ":
+    print(char,"is consonents")
+else:
+    print(char,"is not vowels and consonents")
+
