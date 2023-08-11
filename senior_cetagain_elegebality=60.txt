@@ -1,0 +1,7 @@
+senior_cetagain_elegebality=60
+my_age = 28
+if my_age > senior_cetagain_elegebality:
+    print("elegible of senior_cetagain_elegebality")
+else:
+    print("not elegible of senior_cetagain_elegebality!")
+print("thank you")
