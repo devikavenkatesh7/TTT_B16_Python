@@ -1,0 +1,15 @@
+print age fun of fun.
+def master(fun):
+   def slave(num):
+
+     if num>=18:
+         print("eligible to vote")
+         num=num+10
+     else:
+         print("not eligible to vote")
+     return fun(num)
+   return slave
+@master
+def vote(age):
+    print(age)
+vote(23)
