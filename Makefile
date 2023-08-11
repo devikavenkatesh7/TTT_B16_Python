@@ -1,4 +1,4 @@
-.PHONY: docs
+ example .PHONY: docs
 init:
 	pip install -r requirements-dev.txt
 test:
